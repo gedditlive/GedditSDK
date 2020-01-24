@@ -13,6 +13,7 @@ Pod::Spec.new do |s|
     
     s.ios.deployment_target = '10.0'
     s.ios.vendored_frameworks = 'GedditCoreSDK.framework'
+    s.swift_versions = '4.0'
     
     s.dependency 'ObjectMapper'
     s.dependency 'Alamofire'
