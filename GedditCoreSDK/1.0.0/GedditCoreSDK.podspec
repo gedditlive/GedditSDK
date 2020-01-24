@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
     s.source           = { :http => 'https://github.com/gedditlive/GedditSDK/raw/master/GedditCoreSDK/1.0.0/GedditCoreSDK.zip'}
     
     s.ios.deployment_target = '10.0'
-    s.ios.vendored_frameworks = 'GedditSDK.framework'
+    s.ios.vendored_frameworks = 'GedditCoreSDK.framework'
     
     s.dependency 'ObjectMapper'
     s.dependency 'Alamofire'
