@@ -12,5 +12,7 @@ Pod::Spec.new do |s|
     s.source           = { :http => 'https://github.com/gedditlive/GedditSDK/raw/master/GedditCommerceSDK/1.0.0/GedditCommerceSDK.framework.zip'}
 
     s.ios.deployment_target = '10.0'
+    s.ios.vendored_frameworks = 'GedditCommerceSDK.framework'
+    
     s.dependency 'GedditCoreSDK'
 end
