@@ -6,11 +6,11 @@ Pod::Spec.new do |s|
         GedditCoreSDK by Geddit
                        DESC
 
-    s.homepage         = 'https://github.com/gedditlive/GedditCommerceSDK/tree/master/GedditCoreSDK/1.0.0'
+    s.homepage         = 'https://github.com/gedditlive/GedditSDK/tree/master/GedditCoreSDK/1.0.0'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.author           = { 'Andrei Solovev' => 'andrei@7peakssoftware.com' }
-    s.source           = { :http => 'https://github.com/gedditlive/GedditCommerceSDK/tree/master/GedditCoreSDK/1.0.0/GedditCoreSDK.framework.zip'}
-
+    s.source           = { :http => 'https://github.com/gedditlive/GedditSDK/raw/06aeb236fbe460492aa044e3dac00e44b5ddd785/GedditCoreSDK/1.0.0/GedditCoreSDK.framework.zip'}
+    
     s.ios.deployment_target = '10.0'
     s.dependency 'ObjectMapper'
     s.dependency 'Alamofire'
