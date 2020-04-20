@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'GedditCommerceSDK'
-    s.version          = '1.0.14'
+    s.version          = '1.0.15'
     s.summary          = 'GedditCommerceSDK'
     s.description      = <<-DESC
         GedditCommerceSDK by Geddit
