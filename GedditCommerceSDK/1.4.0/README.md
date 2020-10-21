@@ -11,6 +11,7 @@
 		* [Toggle PIP View](#toggle-pip-view)
 		* [Force To Display PIP View](#force-to-display-pip-view)
 		* [Force To Hide PIP View](#force-to-hide-pip-view)
+* [Fonts]
 * [Delegate](#delegate)
 	* [Product View Delegate](#product-view-delegate)
 	* [Picture In Picture Delegate](#picture-in-picture-delegate)
@@ -101,6 +102,41 @@ sdk.togglePIP(true)
 
 ```swift
 sdk.togglePIP(false)
+```
+
+## Fonts
+
+In order to display the text using the right fonts, please update your `Info.plist` as follows:
+
+```swift
+<key>UIAppFonts</key>
+<array>
+  <string>GraphikTH-SemiBoldItalic.ttf</string>
+  <string>GraphikTH-RegularItalic.ttf</string>
+  <string>GraphikTH-SemiBold.ttf</string>
+  <string>GraphikTH-Regular.ttf</string>
+  <string>GraphikTH-Bold.ttf</string>
+  <string>GraphikTH-Light.ttf</string>
+  <string>GraphikTH-Medium.ttf</string>
+  <string>GraphikTH-MediumItalic.ttf</string>
+  <string>CircularLLMono-Regular.ttf</string>
+  <string>Circular-ThinItalic.ttf</string>
+  <string>Circular-Thin.ttf</string>
+  <string>Circular-Regular.ttf</string>
+  <string>Circular-MediumItalic.ttf</string>
+  <string>Circular-Medium.ttf</string>
+  <string>Circular-LightItalic.ttf</string>
+  <string>Circular-Light.ttf</string>
+  <string>Circular-Italic.ttf</string>
+  <string>Circular-ExtraBlackItalic.ttf</string>
+  <string>Circular-ExtraBlack.ttf</string>
+  <string>Circular-BookItalic.ttf</string>
+  <string>Circular-Book.ttf</string>
+  <string>Circular-BoldItalic.ttf</string>
+  <string>Circular-Bold.ttf</string>
+  <string>Circular-BlackItalic.ttf</string>
+  <string>Circular-Black.ttf</string>
+<array>
 ```
 
 ## Delegate
