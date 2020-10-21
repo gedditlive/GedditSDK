@@ -106,7 +106,7 @@ sdk.togglePIP(false)
 
 ## Fonts
 
-In order to display the text using the right fonts, please update your `Info.plist` as follows:
+In order to display the text using the right fonts, please add the font files in your target and update your `Info.plist` as follows:
 
 ```swift
 <key>UIAppFonts</key>
