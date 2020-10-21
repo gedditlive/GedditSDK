@@ -11,7 +11,7 @@
 		* [Toggle PIP View](#toggle-pip-view)
 		* [Force To Display PIP View](#force-to-display-pip-view)
 		* [Force To Hide PIP View](#force-to-hide-pip-view)
-* [Fonts]
+* [Fonts](#fonts)
 * [Delegate](#delegate)
 	* [Product View Delegate](#product-view-delegate)
 	* [Picture In Picture Delegate](#picture-in-picture-delegate)
