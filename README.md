@@ -20,8 +20,6 @@
 * [Dependencies](#dependencies)
 	* [3rd party](#3rd-party)
 * [Requirements](#requirements)
-* [Contributing](#contributing)
-* [Author](#author)
 
 ## Get Started
 
