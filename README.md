@@ -36,7 +36,7 @@ it in your Podfile:
 source 'https://github.com/gedditlive/GedditSDK.git'
 
 target 'YourTargetName' do
-	pod 'GedditCommerceSDK'
+  pod 'GedditCommerceSDK'
   pod 'GedditCoreSDK'
 end
 ```
